@@ -52,7 +52,6 @@ function App() {
      let sortedData = []
      if(sortByPopulation ==='asc'){
          sortedData = data.sort((a,b)=>a.population-b.population)
-         
      }
      else {
          sortedData = data.sort((a,b)=>b.population-a.population)
